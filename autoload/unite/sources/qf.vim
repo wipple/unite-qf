@@ -3,9 +3,9 @@
 " Usage: Unite qf:enc=utf-8:ex= "show prompt for ex-command (ex. grep, vimgrep, make)
 " Usage: Unite qf:enc=utf-8:ex=grep\ vim\ ~/vimfiles/* "specify ex-command
 
-function! unite#sources#qf#define()"{{{
+function! unite#sources#qf#define() "{{{
   return s:source
-endfunction"}}}
+endfunction "}}}
 
 let s:source = {
       \ 'name': 'qf'
